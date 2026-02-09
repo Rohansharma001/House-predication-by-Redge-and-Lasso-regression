@@ -1,0 +1,7 @@
+This project focuses on predicting house prices using advanced linear regression techniques—Ridge Regression and Lasso Regression. The objective is to build a robust and accurate predictive model that estimates property prices based on multiple features such as location, area (square footage), number of bedrooms and bathrooms, age of the property, proximity to amenities, and overall condition.
+
+Traditional linear regression often suffers from multicollinearity and overfitting when dealing with high-dimensional data. Ridge Regression addresses this issue by adding an L2 regularization penalty that shrinks coefficient values, reducing model complexity while retaining all features. Lasso Regression, on the other hand, applies L1 regularization, which not only controls overfitting but also performs automatic feature selection by forcing less important feature coefficients to zero.
+
+The dataset is preprocessed through data cleaning, handling missing values, encoding categorical variables, and feature scaling. Both Ridge and Lasso models are trained and evaluated using performance metrics such as R-squared, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE). Comparative analysis highlights the strengths of each approach in balancing bias and variance.
+
+This project demonstrates how regularization techniques improve prediction accuracy and interpretability, making them highly effective for real-world house price estimation and decision-making in the real estate domain.
